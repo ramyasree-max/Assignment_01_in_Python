@@ -13,11 +13,12 @@ DownPayment=TotalCost*PostionOfDownPayment
 months=0
 
 #By using while loop
-while CurrentSavings<down_payment:
-      CurrentSavings+=CurrentSavings*(annual_return/12)
+while CurrentSavings<DownPayment:
+      CurrentSavings+=CurrentSavings*(AnnualReturn/12)
       CurrentSavings+=MonthlySalary*PortionSaved
       months+=1
       
 #No.of months required
 
 print(f"Number of months : {months}")
+
