@@ -47,6 +47,7 @@ else:
         else:
             high = rate
 
-    print("Best savings rate:", round(best_rate, 4))
+    print("Best savings rate:", round(BestRate, 4))
 
     print("Steps in bisection search:", steps)
+
